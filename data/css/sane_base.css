@@ -56,7 +56,7 @@ body, html{
 	width: 100%;
 }
 .site_content_project_item_container{
-	background: #BDDCE8; /* Light Blue */
+	background: #9ED487; /* Green */
 	border: 2px solid #ACACAC;
 	float: left;
 	height: 210px;
@@ -79,16 +79,28 @@ body, html{
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
-		box-shadow: 3px 3px 9px black;
-		-moz-box-shadow: 3px 3px 9px black;
-		-webkit-box-shadow: 3px 3px 9px black;
+		box-shadow: 3px 3px 9px #39A30B;
+		-moz-box-shadow: 3px 3px 9px #39A30B;
+		-webkit-box-shadow: 3px 3px 9px #39A30B;
 	}
 	.site_content_project_item_text{
-		font-size: 1.8em;
+		background: #FEFEFE;
+		cursor: default;
+		font-size: .7em;
 		font-weight: bold;
-		margin-top: 10px;
+		height: 13%;
+		left: 5%;
+		margin-top: 15px;
+		padding: 5px;
+		position: relative;
 		text-align: center;
-		width: 100%;
+		width: 84%;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		box-shadow: -3px 3px 5px #A3A3A3 inset;
+		-moz-box-shadow: -3px 3px 5px #A3A3A3 inset;
+		-webkit-box-shadow: -3px 3px 5px #A3A3A3 inset;
 	}
 .project_title{
 	font-size: 1.8em;
@@ -133,7 +145,7 @@ body, html{
 	#sane_intro_title{
 		font-size: 1.5em;
 		font-weight: bold;
-		left: 5%;
+		left: 6%;
 		margin-top: 5px;
 		position: relative;
 		text-align: center;
@@ -163,12 +175,15 @@ body, html{
 		#project_one_thumbnail{
 			background-image:url('/data/images/placeholder.PNG');
 		}
+		#site_content_project_two_thumbnail,
+		#project_two_thumbnail{
+			background-image:url('/data/images/placeholder.PNG');
+		}
 	#sane_intro_right_side{
 		border: 1px solid black;
 		float: left;
 		height: 100%;
 		margin-left: 1%;
-		overflow-y: scroll;
 		position: relative;
 		width: 59%;
 		border-radius: 4px;
