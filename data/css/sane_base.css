@@ -127,7 +127,17 @@ body, html{
 	-moz-box-shadow: 3px 3px 9px black;
 	-webkit-box-shadow: 3px 3px 9px black;
 }
+.standard_canvas{
+	height: 90%;
+	left: 5%;
+	position: relative;
+	top: 5%;
+	width: 90%;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
 
+}
 /* ------------------------------------------------------------------------- */
 /* DIVs									     */
 /* ------------------------------------------------------------------------- */
@@ -173,7 +183,7 @@ body, html{
 	}
 		#site_content_project_one_thumbnail,
 		#project_one_thumbnail{
-			background-image:url('/data/images/placeholder.PNG');
+			background-image:url('/data/images/project_one_thumbnail.PNG');
 		}
 		#site_content_project_two_thumbnail,
 		#project_two_thumbnail{

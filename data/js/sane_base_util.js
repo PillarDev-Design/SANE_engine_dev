@@ -43,31 +43,20 @@ function Add_Events_To_Project(thumbnail_div){
 			"<div class='project_subtitle'>Initializing Canvas" +
 			" and Sprites</div><hr class='modified_hr' />" +
 			"<div class='project_thumbnail' id='project_one_" +
-			"thumbnail'></div>" +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
-			"This is sample text. This is sample text." +
+			"thumbnail'></div><br />" +
+			"Our first project is a barebones minimum program th" +
+			"at shows what is required when using a canvas. Simp" +
+			"le examples show the ctx.drawImage and ctx.fillText" +
+			" functions.<br /><br />The program then goes into a" +
+			" simplified process of sprite animation. There are " +
+			"many ways to achieve animation, and it really depen" +
+			"ds on the circumstances of the program. For example" +
+			", having a program that has three different layers " +
+			"that render at different millisecond intervals." +
 			"<div class='clear'></div>",
 		project_two = "<div class='project_title'>Project 2</div>" +
-			"<div class='project_subtitle'>Building Backgroun" +
-			"ds and Loading Zones</div><hr class='modified_hr" +
+			"<div class='project_subtitle'>" +
+			"Key Presses and Events</div><hr class='modified_hr" +
 			"' /><div class='project_thumbnail' id='project_t" +
 			"wo_thumbnail'></div>" +
 			"This is a different sample text. Derptastic!" +
@@ -118,7 +107,25 @@ function Add_Events_To_Project(thumbnail_div){
 		open_div('#sane_intro_right_text_default');
 	});
 	// Click
+	$(thumbnail_div).click(function(){
+		// A quick function that closes the intro
+		function close_down_intro(){
+			close_div('#sane_intro_right_text_new');
+			open_div('#sane_intro_right_text_default');
+			close_div('#sane_intro_container');
+		};
+		// Check to see if the project is ready to fire
+		switch(thumbnail_div){
+			case '#site_content_project_one_thumbnail':
+				close_down_intro();
+				// Activate project one
+				open_div('#sane_project_one');
+				Initialize_Project_One();
+				break;
+			default:
+				console.log('Error: No project found!');
+				break;
+		}
+	});
 };
 //---------------------------------------------------------------------------\\
-function Initiate_Project(thumbnail_div){
-};

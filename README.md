@@ -16,8 +16,11 @@
 - - - -
 
 ###Project History###
-* [ ] Project Two (*Building backgrounds. Loading zones*)
-* [ ] Project One (*Initializing Canvas and sprites*)
-* [ ] Project Landing Page (*Project directory*)
- * [ ] Project selection code
+* [ ] Project Two (*Key Presses and Events*)
+* [x] Project One (*Initializing Canvas and sprites*)
+ * [x] ~~Animate~~
+ * [x] ~~Find and format a sprite for the program~~
+ * [x] ~~Initialize a canvas element~~
+* [x] ~~Project Landing Page (*Project directory*)~~
+ * [x] ~~Project selection code~~
  * [x] ~~Base design~~
