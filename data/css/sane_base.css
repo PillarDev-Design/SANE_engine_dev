@@ -51,6 +51,12 @@ body, html{
 	text-align: right;
 	width: 100%;
 }
+.site_content_project_item_container{
+}
+	.site_content_project_item_thumbnail{
+	}
+	.site_content_project_item_text{
+	}
 
 /* DIVs */
 #sane_site_container{
@@ -65,14 +71,55 @@ body, html{
 	#sane_intro_title{
 		font-size: 1.5em;
 		font-weight: bold;
+		left: 5%;
+		margin-top: 5px;
 		position: relative;
 		text-align: center;
 		width: 90%;
 	}
+	#sane_intro_side_container{
+		height: 84%;
+		position: relative;
+		width: 98%;
+	}
 	#sane_intro_left_side{
+		border: 1px solid black;
+		float: left;
+		height: 100%;
+		margin-left: 1%;
+		overflow-y: scroll;
+		position: relative;
+		width: 38%;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		box-shadow: 5px 5px 5px #ACACAC;
+		-moz-box-shadow: 5px 5px 5px #ACACAC;
+		-webkit-box-shadow: 5px 5px 5px #ACACAC;
 	}
 	#sane_intro_right_side{
+		border: 1px solid black;
+		float: left;
+		height: 100%;
+		margin-left: 1%;
+		overflow-y: scroll;
+		position: relative;
+		width: 59%;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		box-shadow: 5px 5px 5px #ACACAC;
+		-moz-box-shadow: 5px 5px 5px #ACACAC;
+		-webkit-box-shadow: 5px 5px 5px #ACACAC;
 	}
+		#sane_intro_right_text_default{
+			font-size: 1.5em;
+			position: relative;
+			text-align: center;
+			top: 33%;
+		}
+		#sane_intro_right_text_new{
+		}
 	#sane_intro_footer_text{
 		font-weight: bold;
 		margin-right: 15px;

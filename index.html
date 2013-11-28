@@ -4,14 +4,18 @@
 	<title>SANE - Project Home</title>
 	<!-- JavaScript Imports -->
 	<script type='text/javascript' src='/data/js/sane_base_util.js'></script>
+	<script type='text/javascript' src='/data/js/jquery-1.10.2.min.js'></script>
 	<!-- CSS Imports -->
 	<link href='/data/css/sane_base.css' rel='stylesheet' type='text/css' />
 	<!-- Google Web Fonts -->
 </head>
 <body onload='main_site_onload()'>
 <div id='sane_site_container'>
+<!-- ********************************************************************** -->
+<!-- 							 LANDING PAGE								-->
+<!-- ********************************************************************** -->
 <div id='sane_intro_container' class='site_content_container active_div'>
-	<div id='sane_intro_title'>Directory</div>
+	<div id='sane_intro_title'>Project Directory</div>
 	<hr class='modified_hr' />
 	<!--
 		The left side will display img thumbnails that you can hover over.
@@ -19,20 +23,33 @@
 			the right side div.
 		Clicking on a left side thumbnail will active the project.
 	-->
-	<div id='sane_intro_left_side'>
-	</div>
-	<div id='sane_intro_right_side'>
-	</div>
+	<div id='sane_intro_side_container'>
+		<div id='sane_intro_left_side'>
+		</div>
+		<div id='sane_intro_right_side'>
+			<div id='sane_intro_right_text_default' class='active_div'>
+				<strong>Hover</strong> over a project thumbnail to see the
+					<strong>project description</strong>.<br /><br />
+				<strong>Click</strong> on a project thumbnail to 
+					<strong>initialize the project</strong>.
+			</div>
+			<div id='sane_intro_right_text_new' class='inactive_div'>
+			</div>
+		</div>
+		<div class='clear'></div>
+	</div> <!-- END sane_intro_side_container -->
 	<div class='clear'></div>
 	<div id='sane_intro_footer' class='site_content_footer'>
 		<div id='sane_intro_footer_text'>
 			SANE (St. Amand, Nabors, and Ereio) JS/HTML5 development library
 		</div>
 	</div>
-</div> <!-- END nesa_intro_container -->
+</div> <!-- END sane_intro_container -->
+<!-- ********************************************************************** -->
+<!-- 							  PROJECT 1									-->
+<!-- ********************************************************************** -->
 <div id='sane_project_one' class='site_content_container inactive_div'>
-
-</div> <!-- END nesa_project_one -->
-</div> <!-- END nesa_site_container -->
+</div> <!-- END sane_project_one -->
+</div> <!-- END sane_site_container -->
 </body>
 </html>
