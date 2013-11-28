@@ -1,0 +1,83 @@
+/*****************************************************************************\
+ * nesa_base.css															 *
+ * ------------------------------------------------------------------------- *
+ * 		The following css file is associated with the project landing page.  *
+ * To keep the test projects modular, we should associated a new CSS file    *
+ * with each new project.													 *
+\*****************************************************************************/
+
+/* General Declarations */
+body, html{
+	font-family: 'Exo', sans-serif;
+	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.clear{
+	clear: both;
+}
+.active_div{
+	display: block;
+}
+.inactive_div{
+	display: none;
+}
+.modified_hr{
+	color: #ACACAC;
+	width: 90%;
+}
+
+/* Classes */
+.site_content_container{
+	background: #FEFEFE; /* white */
+	border: 1px solid black;
+	height: 60%;
+	left: 10%;
+	position: relative;
+	top: 15%;
+	width: 80%;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	box-shadow: -7px 4px 17px #ACACAC inset;
+	-moz-box-shadow: -7px 4px 17px #ACACAC inset;
+	-webkit-box-shadow: -7px 4px 17px #ACACAC inset;
+}
+.site_content_footer{
+	border-top: 3px solid #8E8E8E;
+	bottom: 0;
+	height: 25px;
+	position: absolute;
+	text-align: right;
+	width: 100%;
+}
+
+/* DIVs */
+#sane_site_container{
+	background: #CBE5C0; /* Light Green */
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+	/* Base Page */
+	#sane_intro_container{
+	}
+	#sane_intro_title{
+		font-size: 1.5em;
+		font-weight: bold;
+		position: relative;
+		text-align: center;
+		width: 90%;
+	}
+	#sane_intro_left_side{
+	}
+	#sane_intro_right_side{
+	}
+	#sane_intro_footer_text{
+		font-weight: bold;
+		margin-right: 15px;
+		position: relative;
+	}
+	/* Project One */
+	#sane_project_one{
+	}
