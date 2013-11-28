@@ -1,5 +1,5 @@
 /*****************************************************************************\
- * nesa_base.css															 *
+ * sane_base.css															 *
  * ------------------------------------------------------------------------- *
  * 		The following css file is associated with the project landing page.  *
  * To keep the test projects modular, we should associated a new CSS file    *
@@ -52,10 +52,39 @@ body, html{
 	width: 100%;
 }
 .site_content_project_item_container{
+	background: #BDDCE8; /* Light Blue */
+	border: 2px solid #ACACAC;
+	float: left;
+	height: 210px;
+	margin: 5px;
+	position: relative;
+	width: 180px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 	.site_content_project_item_thumbnail{
+		border: 3px solid black;
+		cursor: pointer;
+		height: 150px;
+		left: 7%;
+		overflow: none;
+		position: relative;
+		top: 3%;
+		width: 150px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		box-shadow: 3px 3px 9px black;
+		-moz-box-shadow: 3px 3px 9px black;
+		-webkit-box-shadow: 3px 3px 9px black;
 	}
 	.site_content_project_item_text{
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-top: 10px;
+		text-align: center;
+		width: 100%;
 	}
 
 /* DIVs */
@@ -97,6 +126,9 @@ body, html{
 		-moz-box-shadow: 5px 5px 5px #ACACAC;
 		-webkit-box-shadow: 5px 5px 5px #ACACAC;
 	}
+		#site_content_project_one_thumbnail{
+			background-image:url('/data/images/placeholder.PNG');
+		}
 	#sane_intro_right_side{
 		border: 1px solid black;
 		float: left;
